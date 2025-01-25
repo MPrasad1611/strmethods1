@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr=["html","css","JAVASCRIPT","react","ANGULAR"];
+let ar=[];
+for(i=0;i<arr.length;i++){
+    let str="";
+    if(arr[i]==arr[i].toUpperCase())
+    {
+        str+=arr[i].toLowerCase();
+        ar[ar.length]=`${str}`
+    }
+    else{
+        str+=arr[i].toUpperCase();
+        ar[ar.length]=`${str}`
+    }
+}
+console.log(ar)
+    </script>
+</body>
+</html>
