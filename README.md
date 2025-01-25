@@ -1,0 +1,1 @@
+# strmethods1
